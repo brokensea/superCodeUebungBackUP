@@ -1,0 +1,88 @@
+/* Google Fonts import */
+@font-face {
+  font-family: Montserrat-Italic-VariableFont_wght;
+  src: url("../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+/* Allgemeine Stileinstellungen */
+body {
+  font-family: "Montserrat-Italic-VariableFont_wght", sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Stil für <h1> */
+h1::first-letter {
+  color: #00796b;
+  font-size: 3em;
+}
+
+h1:hover::first-letter {
+  color: #4fc3f7;
+}
+
+/* Stil für <ul> und <li> */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+ul li:nth-of-type(1) {
+  text-decoration: line-through;
+}
+
+ul li:nth-of-type(1)::before {
+  content: url(../assets/icon/check.png);
+}
+
+ul li:nth-of-type(1)::after {
+  content: url(../assets/icon/bill.png);
+}
+
+ul li:nth-of-type(2)::before {
+  content: url(../assets/icon/check.png);
+}
+
+ul li:nth-of-type(2) {
+  text-decoration: 5px line-through;
+}
+ul li:nth-of-type(2)::after {
+  content: url(../assets/icon/bill.png);
+}
+
+ul li:nth-of-type(3)::before {
+  content: url(../assets/icon/doing.png);
+}
+
+ul li:nth-of-type(3)::after {
+  content: url(../assets/icon/gym.png);
+}
+
+ul li:nth-of-type(4)::before {
+  content: url(../assets/icon/doing.png);
+}
+
+ul li:nth-of-type(4)::after {
+  content: url(../assets/icon/eat.png);
+}
+
+ul li:nth-of-type(5)::before {
+  content: url(../assets/icon/no.png);
+}
+
+ul li:nth-of-type(5)::after {
+  content: url(../assets/icon/dance.png);
+}
+
+ul li:nth-of-type(6)::before {
+  content: url(../assets/icon/no.png);
+}
+
+ul li:nth-of-type(6)::after {
+  content: url(../assets/icon/organize.png);
+}

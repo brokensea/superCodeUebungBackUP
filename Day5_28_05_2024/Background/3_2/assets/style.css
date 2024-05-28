@@ -1,0 +1,33 @@
+/* styles.css */
+
+.backgrounds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgrounds > div {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hintergrundfarbe */
+.background1 {
+  background-color: #d9cc3d;
+}
+
+/* Hintergrundbild */
+.background2 {
+  background-image: url("../assets/img/1_2Bild.jpg");
+  background-size: cover;
+}
+
+/* Gradient */
+.background3 {
+  background: linear-gradient(to right, #c8ea0b, #0d0e02);
+}

@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.background-container {
+  height: 100vh;
+  background-image: url("../assets/img/1_2Bild.jpg"); /* 图片路径 */
+  background-size: cover; /* 背景图像覆盖整个容器 */
+  background-repeat: no-repeat; /* 不重复平铺 */
+  background-position: center; /* 图片居中 */
+}
+
+.navbar {
+  background-color: rgba(45, 170, 64, 0.8); /* 背景颜色 */
+  overflow: hidden; /* 清除浮动 */
+  position: fixed; /* 固定在页面顶部 */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* 确保导航栏在最上层 */
+}
+
+.navbar a {
+  float: right; /* 左对齐 */
+  display: block;
+  color: hsl(0, 50%, 42%); /* 链接文字颜色 */
+  text-align: center;
+  padding: 14px 20px; /* 内边距 */
+  text-decoration: none; /* 去掉下划线 */
+}
+
+.navbar a:hover {
+  background-color: #0c2ac2; /* 悬停背景颜色 */
+  color: rgba(213, 34, 24, 0.847); /* 悬停文字颜色 */
+}
+
+.content {
+  padding-top: 60px; /* 确保内容不被导航栏覆盖 */
+}

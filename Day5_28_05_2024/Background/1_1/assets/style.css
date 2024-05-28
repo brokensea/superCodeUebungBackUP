@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* 1. Beispiel */
+.sectionBackground {
+  padding: 20px;
+}
+
+.sectionBackground h1 {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+/* 2. Beispiel */
+.articleBackground {
+  background-image: url("../assets/img/1_2Bild.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.articleBackground h1,
+.articleBackground h2,
+.articleBackground p {
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明的黑色背景，使文字更易读 */
+  padding: 10px;
+  border-radius: 5px;
+}
