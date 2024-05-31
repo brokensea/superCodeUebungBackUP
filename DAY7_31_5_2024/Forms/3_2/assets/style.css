@@ -1,0 +1,90 @@
+/* .wrapper {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  font-family: Arial, sans-serif;
+  position: relative;
+  height: 100vh;
+  margin: 0;
+}
+
+/* .contact_form {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+} */
+
+.contact_form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: rgba(4, 18, 7, 0.836);
+  color: aliceblue;
+}
+
+.contact_form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact_form button {
+  display: block;
+  width: 100%;
+  background-color: #007bff;
+}
+input[type="radio"] {
+  display: none;
+}
+
+.nameInput {
+  display: inline-flex;
+}
+.nameInput input {
+  margin-right: 5px;
+}
+/* Radios */
+.radio_container {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0;
+  margin-right: -5px;
+}
+
+.radio_container label {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+}
+
+.radio_container label:hover {
+  background-color: #43db10;
+}
+
+.radio_container input[type="radio"]:checked + label {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
