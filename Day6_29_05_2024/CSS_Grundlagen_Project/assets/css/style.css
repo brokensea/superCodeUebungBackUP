@@ -63,6 +63,8 @@ header div {
   display: block;
 }
 
+/* workSectionIcon */
+
 ul {
   list-style-type: none;
   text-align: right;
@@ -98,6 +100,7 @@ ul li:nth-of-type(3):hover {
   content: "";
   display: block;
   height: 100vh; /* 高度设为视口高度，强制换到下一页 */
+  /* erzwingen den Wechsel zur nächsten Seite */
 }
 
 /* heard2tePage */
@@ -119,10 +122,10 @@ ul li:nth-of-type(3):hover {
 
 /* container */
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
+  display: flex; /* Setzt das Container-Layout auf das Flexbox-Modell */
+  flex-wrap: wrap; /* Erlaubt es den Flex-Elementen, auf mehrere Zeilen umzubrechen */
+  justify-content: space-around; /* Verteil den Platz gleichmäßig um die Flex-Elemente herum */
+  align-items: flex-start; /* Richtet die Flex-Elemente am oberen Rand des Containers aus */
   border: 2px solid #333;
   border-radius: 10px;
   padding: 20px;
@@ -136,6 +139,7 @@ article {
   padding: 15px;
   background-color: #f4f4f4;
   vertical-align: top; /* 使所有article顶部对齐 */
+  /* Richtet die Spitzen aller Artikel aus */
 }
 
 article:hover {
@@ -155,7 +159,6 @@ article:hover {
 }
 
 .containerThirdBag .leftArticle p {
-  text-align: left;
   max-width: 100vb;
   font-family: Roboto;
   font-size: 12px;
@@ -163,14 +166,6 @@ article:hover {
   line-height: 14.06px;
   text-align: center;
   margin-top: 50px;
-}
-
-.containerThirdBag .leftArticle p span {
-  text-align: center;
-}
-
-.containerThirdBag .rightArticle p span {
-  text-align: center;
 }
 
 .containerThirdBag .rightArticle p {
@@ -181,7 +176,7 @@ article:hover {
   font-weight: 400;
   line-height: 14.06px;
   margin-top: 50px;
-  margin-left: 68vb; /* 自动左边距，使元素靠右 */
+  margin-left: 35vw; /* 自动左边距，使元素靠右 */
   margin-right: auto; /* 确保右边距为0 */
   display: block; /* 确保元素为块级元素 */
 }

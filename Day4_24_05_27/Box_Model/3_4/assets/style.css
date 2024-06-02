@@ -6,11 +6,11 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  display: flex; /* Setzt das Layout des body-Elements auf das Flexbox-Modell */
+  flex-direction: column; /* Richtet die Flex-Elemente (Kinder des body-Elements) in einer Spalte (vertikal) aus */
+  align-items: center; /* Zentriert die Flex-Elemente horizontal in der Mitte des Containers (body) */
+  justify-content: center; /* Zentriert die Flex-Elemente vertikal in der Mitte des Containers (body) */
+  min-height: 100vh; /* Stellt sicher, dass das body-Element mindestens die Höhe des Ansichtsfensters hat */
   background-color: #f5f5f5;
   padding: 20px;
 }
@@ -36,14 +36,21 @@ footer {
 
 .navbar .logo:hover {
   animation: swing 0.5s infinite alternate;
+  /* Wendet die 'swing'-Animation auf das '.logo'-Element an, wenn es mit der Maus überfahren wird.
+                                              
+  Die Animation dauert 0,5 Sekunden pro Zyklus, wiederholt sich unendlich oft und wechselt die Richtung in jedem Zyklus. */
 }
 
 @keyframes swing {
   0% {
-    transform: rotate(10deg);
+    transform: rotate(
+      10deg
+    ); /* Am Anfang der Animation (0%) wird das Element um 10 Grad im Uhrzeigersinn gedreht */
   }
   100% {
-    transform: rotate(-10deg);
+    transform: rotate(
+      -10deg
+    ); /* Am Ende der Animation (100%) wird das Element um 10 Grad gegen den Uhrzeigersinn gedreht */
   }
 }
 
