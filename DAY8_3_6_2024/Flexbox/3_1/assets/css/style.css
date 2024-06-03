@@ -1,0 +1,96 @@
+/* BASIC STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(70, 69, 69, 0.828);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Background */
+.backgroundFirst-container {
+  height: 100vh;
+  background-image: url("../img/background/1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; /* 为背景容器设置相对定位 */
+
+  display: flex;
+}
+
+.flexNavContainer {
+  background-color: white;
+  overflow: hidden; /* 清除浮动 */
+  position: fixed; /* 固定在页面顶部 */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* 确保导航栏在最上层 */
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  height: 10vh;
+  align-items: center;
+}
+
+.flexNavContainerLink {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  width: 30%;
+  margin-left: 10%;
+}
+
+.flexNavContainerRecht {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  margin-right: 10%;
+}
+.flexNavContainerLink a:hover {
+  background-color: rgb(32, 91, 202);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: rgb(107, 174, 24);
+}
+.flexNavContainerRecht a:hover {
+  background-color: rgb(32, 91, 202);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: rgb(107, 174, 24);
+}
+
+/* WeChangeContainer */
+.WeChangeContainer {
+  position: absolute; /* 确保 h3 绝对定位 */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 将元素中心对齐 */
+  z-index: 2; /* 确保文本在背景容器上方 */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* imgContainer */
+.imgContainer {
+  display: flex; /* Setzt das Container-Layout auf das Flexbox-Modell */
+  flex-wrap: wrap; /* Erlaubt es den Flex-Elementen, auf mehrere Zeilen umzubrechen */
+  justify-content: space-around; /* Verteil den Platz gleichmäßig um die Flex-Elemente herum */
+  align-items: flex-start; /* Richtet die Flex-Elemente am oberen Rand des Containers aus */
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 将元素中心对齐 */
+  width: 80%;
+}

@@ -1,0 +1,66 @@
+/* BASIC STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(70, 69, 69, 0.828);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  padding: 0 0;
+}
+
+/* Background */
+
+.background-container {
+  height: 100vh;
+  background-image: url("../img/Bild.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flexNavContainer {
+  background-color: rgba(77, 176, 77, 0.8);
+  overflow: hidden; /* 清除浮动 */ /* remove flow */
+  position: fixed; /* 固定在页面顶部 */ /*fix */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* 确保导航栏在最上层 */ /* fixed, 1000 make sure in top */
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 10vh;
+  align-items: center;
+}
+
+.flexNavContainer h2 {
+  margin-left: 10%;
+}
+.flexNavContainerRecht {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  margin-right: 10%;
+}
+.flexNavContainerRecht a {
+  color: white;
+}
+.flexNavContainerRecht a:hover {
+  background-color: rgb(32, 91, 202);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: rgb(107, 174, 24);
+}
