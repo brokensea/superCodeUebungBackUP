@@ -71,15 +71,58 @@ a {
 }
 
 /* WeChangeContainer */
+
 .WeChangeContainer {
-  position: absolute; /* 确保 h3 绝对定位 */
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* 将元素中心对齐 */
-  z-index: 2; /* 确保文本在背景容器上方 */
+  transform: translate(-50%, -50%);
+  z-index: 2;
   display: flex;
-  justify-content: center;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
   text-align: center;
+  height: 100vh; /* 设置高度 */
+  width: 100vw; /* 设置宽度 */
+}
+
+.WeChangeContainer h3 {
+  color: white;
+  font-size: 1rem;
+}
+
+.WeChangeContainer span {
+  font-size: 3rem;
+  display: block;
+}
+.WeChangeContainer form {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: row; /* 垂直排列按钮 */
+  align-items: center; /* 居中对齐 */
+  gap: 20px; /* 按钮之间的间距 */
+  font-size: 1.5rem; /* 放大按钮 */
+  cursor: pointer; /* 鼠标悬停效果 */
+}
+
+.WeChangeContainer input[type="button"] {
+  font-size: 1.5rem; /* 放大按钮 */
+  padding: 20px 30px; /* 增加按钮内边距 */
+  margin: 10px 0; /* 按钮外边距 */
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s; /* 添加过渡效果 */
+  color: white;
+  border-color: white;
+}
+
+.WeChangeContainer input[type="button"]:hover,
+.WeChangeContainer input[type="button"]:focus {
+  background-color: rgba(66, 11, 117, 0.881); /* 背景半透明 */
+  color: white; /* 字体颜色 */
 }
 
 /* imgContainer */
@@ -93,4 +136,163 @@ a {
   left: 50%;
   transform: translate(-50%, -50%); /* 将元素中心对齐 */
   width: 80%;
+}
+
+.page-break::after {
+  content: "";
+  display: block;
+  height: 100vh; /* 高度设为视口高度，强制换到下一页 */
+  /* erzwingen den Wechsel zur nächsten Seite */
+}
+
+/* 2teSeit */
+
+article {
+  display: inline-block;
+  min-width: 400px;
+  margin: 010px;
+  padding: 15px;
+  background-color: #f4f4f4;
+  vertical-align: top; /* 使所有article顶部对齐 */
+  /* Richtet die Spitzen aller Artikel aus */
+}
+
+article:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/*  containerThirdBag */
+
+.leftArticle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30%;
+}
+
+.rightArticle {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 30%;
+}
+
+.articleUndButton span {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 5%;
+}
+
+.buttonGeneral {
+  font-size: 1.5rem; /* 放大按钮 */
+  padding: 20px 30px; /* 增加按钮内边距 */
+  margin: 10px 0; /* 按钮外边距 */
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s; /* 添加过渡效果 */
+  color: white;
+  border-color: white;
+  background-color: rgba(66, 11, 117, 0.881); /* 背景半透明 */
+  color: white; /* 字体颜色 */
+}
+
+.backgroundSecond-container {
+  height: 30vh;
+  width: 100vw;
+  background-image: url("../img/background/2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; /* 为背景容器设置相对定位 */
+
+  display: flex;
+}
+
+.thirdPage-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.articleUndButtonThrid {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 50vw;
+}
+.articleUndButtonThrid span {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 5%;
+}
+.backgroundThird-container {
+  height: 100vh;
+  width: 70vw;
+  background-image: url("../img/background/3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+
+/* fourthPage-container */
+.fourthPage-container {
+  display: flex; /* Setzt das Container-Layout auf das Flexbox-Modell */
+  flex-wrap: wrap; /* Erlaubt es den Flex-Elementen, auf mehrere Zeilen umzubrechen */
+  justify-content: baseline;
+  align-items: flex-start; /* Richtet die Flex-Elemente am oberen Rand des Containers aus */
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 5vh;
+  background-color: #333;
+}
+
+article {
+  display: inline-block;
+  min-width: 300px;
+  margin: 5px;
+  padding: 5px;
+  background-color: #f4f4f4;
+  vertical-align: top; /* 使所有article顶部对齐 */
+  /* Richtet die Spitzen aller Artikel aus */
+}
+
+article:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.fivethPage-container {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.iconFace {
+  max-width: 10vw;
+}
+.fivethIconBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.doYou_articleUndButton {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+.doYou_articleUndButton p {
+  font-size: 2rem;
+}
+.footer {
+  background-color: #333;
+  height: 10vw;
+  position: relative;
+}
+.footer p {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 20%;
 }
