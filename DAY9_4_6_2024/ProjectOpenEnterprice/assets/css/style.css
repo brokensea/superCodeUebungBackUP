@@ -1,0 +1,257 @@
+/* BASIC STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(70, 69, 69, 0.828);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  padding: 0 2vw;
+}
+
+@import url(//db.onlinewebfonts.com/c/f05f148ec6596f0b75375fa566aaf1fe?family=Bely);
+/* font-family: Bely;) */
+
+@font-face {
+  font-family: Cousine;
+  src: url("../fonts/Cousine/Cousine-Bold.ttf");
+}
+@font-face {
+  font-family: DidactGothic;
+  src: url("../fonts/Didact_Gothic/DidactGothic-Regular.ttf");
+}
+@font-face {
+  font-family: Montserrat-Italic-VariableFont_wght;
+  src: url("../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+/* body */
+/* nav */
+.flexNavContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 10vw;
+  align-items: center;
+}
+
+.flexNavContainerLink {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  width: 30%;
+  margin-left: 5%;
+}
+.flexNavContainerLink::before {
+  content: url(../img/icons/1.png);
+  margin-left: 20%;
+}
+.flexNavContainerRecht {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  margin-right: 10%;
+  width: 40%;
+}
+
+.articleUndButtonFirst {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.articleUndButtonFirstPart1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 40vw;
+  margin-left: 5%;
+}
+.articleUndButtonFirstPart1 span {
+  font-family: Bely Display;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 80px;
+  text-align: left;
+  display: block;
+}
+
+.articleUndButtonFirstBackground {
+  height: 50vh;
+  width: 40vw;
+  background-image: url("../img/background/1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10%;
+}
+
+.buttonGeneral {
+  font-size: 1rem; /* 放大按钮 */
+  background-color: #71a894;
+  color: white;
+  border-color: black(19, 18, 18);
+  padding: 20px 24px 20px 24px;
+  width: 200px;
+  height: Hug (64px) px;
+  gap: 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.articleUndIconBoxFirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.articleUndIconBoxFirst h2 {
+  font-family: Bely Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: center;
+}
+.articleUndButtonFirst div p {
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.iconBoxFirst {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+}
+
+.iconBoxInhalt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  border: rgb(17, 16, 16);
+  border-style: initial;
+  margin-top: 5%;
+  width: 25%;
+}
+.iconBoxInhalt span {
+  font-family: Proxima Nova;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  display: block;
+}
+
+.articleUndImgSeconed {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  justify-content: space-evenly;
+}
+
+.iconTestSeconed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  width: 40vw;
+}
+
+.iconTestSeconed span {
+  font-family: Bely Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: left;
+  display: block;
+  margin-bottom: 5%;
+}
+
+.articleUndImgSeconedRe {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10%;
+  justify-content: space-evenly;
+}
+
+.iconBoxInhaltThrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  width: 25%;
+}
+.iconBoxInhaltThrid span {
+  font-family: Novel Mono Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  display: block;
+}
+.iconBoxInhaltThrid p {
+  font-family: Novel Mono Pro;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.iconBoxInhaltThridLastPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.iconBoxInhaltThridLastPart p {
+  font-family: Novel Mono Pro;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: right;
+}
+.buttonKlein {
+  font-family: Novel Mono Pro;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  background-color: #71a894;
+  border-radius: 8px 8px 8px 8px;
+  color: aliceblue;
+}
+
+#viewMore {
+  width: Hug (136px) px;
+  height: Hug (64px) px;
+  padding: 20px 24px 20px 24px;
+  gap: 0px;
+  border-radius: 0px 0px 0px 0px;
+  opacity: 0px;
+  background: #303031;
+  text-align: center;
+  margin: 5% 45% 5%;
+  color: white;
+  cursor: cell;
+}
+
+#lastLeftText {
+  margin-left: 6%;
+}
