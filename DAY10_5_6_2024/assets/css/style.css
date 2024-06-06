@@ -1,0 +1,154 @@
+/* BASIC STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(70, 69, 69, 0.828);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  padding: 0 2vw;
+}
+
+/* fanget an */
+.hauptContainer{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content:space-evenly;
+}
+
+header section{
+  background-color: aqua;
+  height: 30vh;
+  text-align: center;
+}
+
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.mainContainerBox1_1{
+  background-color: aquamarine;
+  width: 100vw;
+  height: 30vh;
+}
+.mainContainerBox1_2{
+  background-color:deeppink;
+  width: 100vw;
+  height: 30vh;
+}
+
+.mainContainerBox2{
+  display: flex;
+  flex-direction: column;
+}
+.mainContainerBox2_1{
+  background-color: burlywood;
+  width: 100vw;
+  height: 30vh;
+}
+.mainContainerBox2_2{
+  background-color: darkkhaki;
+  width: 100vw;
+  height: 30vh;
+}
+.mainContainerBox3{
+  background-color: blueviolet;
+  width: 100vw;
+  height: 30vh;
+}
+
+footer section{
+  background-color: darkmagenta;
+  height: 30vh;
+  text-align: center;
+}
+
+
+
+/* ! Tablet */
+@media only screen and (min-width: 768px) {
+
+ .mainContainerBox3{
+  width: 100vw;
+  order: -1;
+  height: 30vh;
+ }
+ .mainContainerBox1{
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+ }
+ .mainContainerBox1_1{
+  width: 50vw;
+ }
+ .mainContainerBox1_2{
+  width: 50vw;
+ }
+
+
+ .mainContainerBox2{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+ }
+ .mainContainerBox2_1{
+  width: 50vw;
+ }
+ .mainContainerBox2_2{
+  width: 50vw;
+ }
+
+ .mainContainer{
+  flex-direction: column;
+ }
+}
+
+/* ! Desktop */
+
+@media only screen and (min-width: 998px) {
+  .mainContainer{
+    flex-direction: row;
+  }
+  .mainContainerBox3{
+    order: 0;
+    width: 34vw;
+    height: 60vh;
+   }
+
+   .mainContainerBox1{
+    flex-direction: column;
+    width: 33vw;
+   }
+   .mainContainerBox1_2{
+    width: 33vw;
+   }
+   .mainContainerBox2{
+    flex-direction: column;
+    width: 33vw;
+   }
+   .mainContainerBox2_2{
+    width: 33vw;
+   }
+
+   
+   
+  
+}
