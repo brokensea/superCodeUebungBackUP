@@ -135,7 +135,7 @@ ul li:nth-of-type(3):hover {
 article {
   display: inline-block;
   min-width: 400px;
-  margin: 010px;
+  margin: 10px;
   padding: 15px;
   background-color: #f4f4f4;
   vertical-align: top; /* 使所有article顶部对齐 */

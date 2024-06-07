@@ -1,0 +1,57 @@
+/* BASIC STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(70, 69, 69, 0.828);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  padding: 0 2vw;
+}
+
+@font-face {
+  font-family: Poppins,Poppins-Black;
+  src: url("../fonts/Poppins/Poppins-Black.ttf");
+}
+
+/* fängt an */
+.backgroundContainer{
+  display: flex;
+  height: 100vh;
+  background-image: url("../img/background/1.jpg");
+  flex-basis: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.backgroundContainer p:nth-of-type(1){
+  font-size: 4rem;
+  position: absolute;
+  right: 30%;
+  top:40%;
+  color:white;
+  font-family: Poppins-Black;
+}
+.backgroundContainer p:nth-of-type(2){
+  
+  font-size: 2rem;
+  position: absolute;
+  right: 30%;
+  top:60%;
+  color:white;
+  font-family: Poppins-Black;
+}
