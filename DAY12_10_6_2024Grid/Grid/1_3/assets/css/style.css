@@ -28,7 +28,8 @@ a {
   height: 100vh;
   color: white;
   font-size: 2rem;
-  gap: 2%;
+  row-gap: 5%;
+  column-gap: 1%;
 }
 
 .wrapper header{
