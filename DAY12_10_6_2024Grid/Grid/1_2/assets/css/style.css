@@ -1,0 +1,71 @@
+/* BASIC STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(70, 69, 69, 0.828);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* fängt an */
+.wrapper {
+  padding: 0 2vw;
+  display: grid;
+  border: 2px solid red;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-template-areas:
+    "header header header header"
+    "aside aside main main"
+    "aside aside main main";
+  gap: 2px;
+  height: 80vh;
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.wrapper header{
+  background-color: red;
+  grid-area: header;
+}
+.wrapper aside{
+  background-color: blue;
+  grid-area:aside;
+}
+.wrapper main{
+  grid-area: main;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-template-areas:
+  "greenBox greenBox"
+  "purpulsBox1 purpulsBox2";
+  gap: 2px;
+
+}
+
+.wrapper main .greenBox{
+  background-color: green;
+  grid-area: greenBox;
+}
+
+.wrapper main .purpulsBox1{
+  background-color: purple;
+  grid-area: purpulsBox1;
+}
+.wrapper main .purpulsBox2{
+  background-color: purple;
+}
+

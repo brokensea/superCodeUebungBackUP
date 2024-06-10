@@ -124,8 +124,7 @@ ul li:nth-of-type(3):hover {
 .container {
   display: flex; /* Setzt das Container-Layout auf das Flexbox-Modell */
   flex-wrap: wrap; /* Erlaubt es den Flex-Elementen, auf mehrere Zeilen umzubrechen */
-  justify-content: space-around; /* Verteil den Platz gleichmäßig um die Flex-Elemente herum */
-  align-items: flex-start; /* Richtet die Flex-Elemente am oberen Rand des Containers aus */
+  /* Richtet die Flex-Elemente am oberen Rand des Containers aus */
   border: 2px solid #333;
   border-radius: 10px;
   padding: 20px;
