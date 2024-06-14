@@ -1,0 +1,290 @@
+[
+  {
+    "href": "https://amzn.to/32MmHgL",
+    "imgSrc": "./assets/img/background/1.png",
+    "altText": "Kanken Art Laptop 15\" Special Edition Backpack",
+    "title": "Kanken Art Laptop 15\" Special Edition Backpack",
+    "brand": "Fjallraven",
+    "price": "$119.00",
+    "large": true
+  },
+  {
+    "href": "https://amzn.to/2WX7vtD",
+    "imgSrc": "./assets/img/bild/1seite/1.png",
+    "altText": "Swing Arm Wood Desk Lamp",
+    "title": "Swing Arm Wood Desk Lamp",
+    "brand": "Tomons",
+    "price": "$36.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2I3WvXM",
+    "imgSrc": "./assets/img/bild/1seite/2.png",
+    "altText": "Hajo Backpack",
+    "title": "Hajo Backpack",
+    "brand": "Ucon Acrobatics",
+    "price": "$89.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2YX3043",
+    "imgSrc": "./assets/img/bild/1seite/3.png",
+    "altText": "Zed Bamboo Longboard",
+    "title": "Zed Bamboo Longboard",
+    "brand": "Retrospec",
+    "price": "$60.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2KfP3ee",
+    "imgSrc": "./assets/img/bild/1seite/4.png",
+    "altText": "Electric Pour-Over Kettle",
+    "title": "Electric Pour-Over Kettle",
+    "brand": "Fellow",
+    "price": "$149.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2FYB3zT",
+    "imgSrc": "./assets/img/bild/1seite/5.png",
+    "altText": "Woodie Vintage Car",
+    "title": "Woodie Vintage Car",
+    "brand": "Candylab Toys",
+    "price": "$35.00",
+    "large": false
+  },
+  {
+    "href": "https://www.bookdepository.com/Logo-Modernism-Jens-Muller-R-Roger-Remington/9783836545303/?a_aid=1991",
+    "imgSrc": "./assets/img/bild/1seite/6.png",
+    "altText": "Logo Modernism",
+    "title": "Logo Modernism",
+    "brand": "Taschen",
+    "price": "$60.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2YQLnCV",
+    "imgSrc": "./assets/img/background/2.png",
+    "altText": "Dieter Rams: As Little Design as Possible",
+    "title": "Dieter Rams: As Little Design as Possible",
+    "brand": "Sophie Lovell",
+    "price": "$150.00",
+    "large": true
+  },
+  {
+    "href": "https://amzn.to/2I3lbQ7",
+    "imgSrc": "./assets/img/bild/2seite/1.png",
+    "altText": "The Eye",
+    "title": "The Eye",
+    "brand": "Nathan Williams",
+    "price": "$28.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2IifSvA",
+    "imgSrc": "./assets/img/bild/2seite/2.png",
+    "altText": "Gather Desk Organizer",
+    "title": "Gather Desk Organizer",
+    "brand": "Ugmonk",
+    "price": "$149.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2G84CiT",
+    "imgSrc": "./assets/img/bild/2seite/3.png",
+    "altText": "Dipped Canteen",
+    "title": "Dipped Canteen",
+    "brand": "Corkcicle.",
+    "price": "$28.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2YWPz3N",
+    "imgSrc": "./assets/img/bild/2seite/4.png",
+    "altText": "Sayl Office Chair White",
+    "title": "Sayl Office Chair White",
+    "brand": "Herman Miller",
+    "price": "$599.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2KhwTsz",
+    "imgSrc": "./assets/img/bild/2seite/5.png",
+    "altText": "Three Cherry Wood Notebook",
+    "title": "Three Cherry Wood Notebook",
+    "brand": "Field Notes",
+    "price": "$13.00",
+    "large": false
+  },
+  {
+    "href": "https://www.bookdepository.com/From-Japan/9780957081659?a_aid=1991",
+    "imgSrc": "./assets/img/bild/2seite/6.png",
+    "altText": "From Japan",
+    "title": "From Japan",
+    "brand": "Counter Print",
+    "price": "$16.00",
+    "large": false
+  },
+  {
+    "href": "http://www.grupaproducts.com/arigato/",
+    "imgSrc": "./assets/img/background/3.png",
+    "altText": "Arigato Desk Lamp",
+    "title": "Arigato Desk Lamp",
+    "brand": "Grupa",
+    "price": "$380.00",
+    "large": true
+  },
+  {
+    "href": "https://amzn.to/2CZiPxO",
+    "imgSrc": "./assets/img/bild/3seite/1.png",
+    "altText": "Winston Regal Watch",
+    "title": "Winston Regal Watch",
+    "brand": "Komono",
+    "price": "$58.00",
+    "large": false
+  },
+  {
+    "href": "https://heyshop.es/collections/home/products/h-hey",
+    "imgSrc": "./assets/img/bild/3seite/2.png",
+    "altText": "Letter H Poster",
+    "title": "Letter H Poster",
+    "brand": "Hey Studio",
+    "price": "$45.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2UGLHEQ",
+    "imgSrc": "./assets/img/bild/3seite/3.png",
+    "altText": "Coffee Can",
+    "title": "Coffee Can",
+    "brand": "Blue Bottle Company",
+    "price": "$11.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2UFjEWp",
+    "imgSrc": "./assets/img/bild/3seite/4.png",
+    "altText": "Beoplay H4",
+    "title": "Beoplay H4",
+    "brand": "Bang & Olufsen",
+    "price": "$160.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2OTHEQg",
+    "imgSrc": "./assets/img/bild/3seite/5.png",
+    "altText": "Make It Now",
+    "title": "Make It Now",
+    "brand": "Anthony Burrill",
+    "price": "$22.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2UFHfGt",
+    "imgSrc": "./assets/img/bild/3seite/6.png",
+    "altText": "Black Side Chair",
+    "title": "Black Side Chair",
+    "brand": "Eames Style",
+    "price": "$54.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2Ij1IKA",
+    "imgSrc": "./assets/img/background/4.png",
+    "altText": "Min: The New Simplicity in Graphic Design",
+    "title": "Min: The New Simplicity in Graphic Design",
+    "brand": "Thames & Hudson",
+    "price": "$28.00",
+    "large": true
+  },
+  {
+    "href": "https://amzn.to/2UxtLww",
+    "imgSrc": "./assets/img/bild/4seite/1.png",
+    "altText": "Grid systems in graphic design",
+    "title": "Grid systems in graphic design",
+    "brand": "Josef Müller-Brockmann",
+    "price": "$42.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2I5vxiq",
+    "imgSrc": "./assets/img/bild/4seite/2.png",
+    "altText": "Card Wallet",
+    "title": "Card Wallet",
+    "brand": "Herschel",
+    "price": "$15.00",
+    "large": false
+  },
+  {
+    "href": "https://goodfuckingdesignadvice.com/products/classic-advice-print",
+    "imgSrc": "./assets/img/bild/4seite/3.png",
+    "altText": "Classic Advice Print Black",
+    "title": "Classic Advice Print Black",
+    "brand": "Good Fucking Design Advice",
+    "price": "$30.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2D3yZWX",
+    "imgSrc": "./assets/img/bild/4seite/4.png",
+    "altText": "Magic Mouse 2",
+    "title": "Magic Mouse 2",
+    "brand": "Apple",
+    "price": "$92.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2WTbsPL",
+    "imgSrc": "./assets/img/bild/4seite/5.png",
+    "altText": "Travel Tumbler",
+    "title": "Travel Tumbler",
+    "brand": "Kinto",
+    "price": "$34.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2GbCf4A",
+    "imgSrc": "./assets/img/bild/4seite/6.png",
+    "altText": "Magic Keyboard",
+    "title": "Magic Keyboard",
+    "brand": "Apple",
+    "price": "$139.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2WMJbdy",
+    "imgSrc": "./assets/img/background/5.png",
+    "altText": "Bottle Grinder",
+    "title": "Bottle Grinder",
+    "brand": "Menu",
+    "price": "$75.00",
+    "large": true
+  },
+  {
+    "href": "https://amzn.to/2JLtxvk",
+    "imgSrc": "./assets/img/bild/5seite/1.png",
+    "altText": "Geo Thermos",
+    "title": "Geo Thermos",
+    "brand": "Normann Copenhagen",
+    "price": "$62.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2YdSBPy",
+    "imgSrc": "./assets/img/bild/5seite/2.png",
+    "altText": "Womb Chair & Ottoman",
+    "title": "Womb Chair & Ottoman",
+    "brand": "Kardiel",
+    "price": "$799.00",
+    "large": false
+  },
+  {
+    "href": "https://amzn.to/2LCEfGP",
+    "imgSrc": "./assets/img/bild/5seite/3.png",
+    "altText": "Water Filter Glass Carafe",
+    "title": "Water Filter Glass Carafe",
+    "brand": "Soma",
+    "price": "$30.00",
+    "large": false
+  }
+]

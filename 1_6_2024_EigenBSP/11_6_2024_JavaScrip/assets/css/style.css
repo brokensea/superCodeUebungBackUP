@@ -1,0 +1,95 @@
+/* BASIC STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(70, 69, 69, 0.828);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  padding: 0 2vw;
+}
+
+
+/* fängt an */
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.bildAndPContainer1{
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit,minmax(150px,100%)); */
+  grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
+  grid-column-end: span;
+  gap: 2%;
+  text-align: center;
+
+  margin: 0 auto;
+  padding: 20px; 
+}
+
+.itemContainer {
+  text-align: center;
+  grid-column: 1 span;
+  min-width: 1fr;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.largerItemContainer{
+  grid-column: 3 span;
+}
+.itemContainer a {
+  text-decoration: none;
+  color: inherit; /* 使链接颜色与文本颜色一致 */
+  background-color: #f5f5f5;
+  
+}
+.itemContainer  a:hover img {
+  opacity: 0.8; /* 鼠标悬停时改变图片透明度 */
+}
+
+
+.textBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.textBox div p , .itemContainer p{
+  font-family: Karla;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: left;
+  font-size: large;
+}
+
+.textBox div p span{
+  display: block;
+  text-align: left;
+  font-family: Karla;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
