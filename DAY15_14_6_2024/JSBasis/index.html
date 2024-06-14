@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div class="Console-Level-1_1">
+      <h2>Console-Level-1_1</h2>
+      <p>- Lernziel: Funktionalität der Konsole im Browser und Basiswissen zu Variablen. Bonus: einen Wert ins HTML
+        schreiben.
+        - Übernimm den vorgegebenen JS-Code (siehe Code-Snippet) und sieh dir das Ergebnis mithilfe des
+        console.log()-Befehls an. Starte deinen Liveserver, um in der Konsole des Chrome-Browsers das Ergebnis zu sehen.
+        - Gib dann ein "Hello World" in der Konsole aus. Deklariere die Variable firstName mit dem Wert "Anton" und die
+        Variable age mit dem Wert 28. Zeige nun beide Variablen in der Konsole an.
+        - Deklariere die Variable job mit dem Wert "Trainer:in" und gib sie in der Konsole aus. Deklariere danach die
+        Variable married mit dem Befehl: let married = true; und gib die Variable dann in der Konsole aus.
+        - Zum Schluss gib alle vorher deklarierten Variablen in einem kombinierten Satz in der Konsole aus, sodass es
+        folgendermaßen aussieht: "Anton ist 28 Jahre alt, von Beruf Trainer:in und ist verheiratet: true."</p>
+
+      <button onclick="console1_1()">lösung 1-1</button>
+      <input type="number" name="" id="salaryInput" placeholder="input number of salary">
+      <button onclick="getEinkommen()">input salar</button>
+    </div>
+
+    <div class="Infor1_3">
+      <h2>Infor1_3</h2>
+      <p>- Lernziel: mit typeof Datentypen bestimmen.
+        - Definiere folgende Variablen und lasse dir mit [typeof](https://www.w3schools.com/js/js%5Fdatatypes.asp) den
+        Datentypen in der Konsole ausgeben.
+        - Welche Datentypen werden dir bei diesen Beispielen angezeigt?
+        let i = 1; let lastName = "Johnson"; let j = "2"; let status = true; let hello = "hello"; let helloWorld =
+        "hello";</p>
+
+      <button onclick="infor1_3()">lösung infor1_3</button>
+    </div>
+
+    <div class="Output-Level-1_4">
+      <h2>Output-Level-1_4</h2>
+      <p>- Lernziel: Verschiedene Möglichkeiten (alert, prompt, confirm) für den Output.
+        - Nun beschäftigst du dich mit dem Thema Output. Du kannst dir im JS auf unterschiedliche Art und Weise Daten
+        anzeigen lassen.
+        - Teste dazu folgenden Code und die nachstehenden Befehle. Gehe Befehl für Befehl durch und kommentiere dann die
+        jeweilige(n) Zeile(n) aus, sonst liegen die ganzen Pop-Up-Fenster übereinander:
+        - window.alert("Hallo Welt");
+        - window.prompt("Bitte geben Sie Ihren Namen ein.");
+        - window.prompt("Bitte geben Sie Ihren Namen ein", "Cancel");
+        - window.confirm("Stimmen Sie meiner Meinung zu?");
+        - let alter = window.prompt( "Gib mir bitte dein Alter:" ); console.log(alter);
+        - let b = 5; let a = b
+        - 5 -3; window.alert(a);
+        - let mann = "Robert Wadlow ist der größte Mann der Welt : "; let grosse = "2,72m"; window.confirm(mann +
+        grosse);</p>
+
+      <button onclick="Output1_4_1()">window.alert("Hallo Welt");</button>
+      <button onclick="Output1_4_2()">window.prompt("Bitte geben Sie Ihren Namen ein.");</button>
+
+      <button onclick="Output1_4_3()">("Bitte geben Sie Ihren Namen ein", "Cancel");</button>
+      <button onclick="Output1_4_4()">("Stimmen Sie meiner Meinung zu?");</button>
+      <button onclick="Output1_4_5()">window.prompt( "Gib mir bitte dein Alter:" ); </button>
+      <button onclick="Output1_4_6()">let a = b - 5 -3; window.alert(a);</button>
+      <button onclick="Output1_4_7()">window.confirm(mann + grosse);</button>
+
+
+    </div>
+
+    <div class="IntroLevel_1_7">
+      <h2>Intro-Level-1_7</h2>
+      <p>- Lernziel: Unterschied zwischen const und let.
+        - Deklariere die untenstehenden Variablen mit korrekter Namenskonvention und der camelCase-Schreibweise.
+        - Entscheide, ob du die Variablen mit let oder const deklarieren möchtest. Der Wert einer Konstanten (const)
+        kann nicht verändert werden durch Zuweisung oder Neudeklaration, bei let kann wiederum ein neuer Wert
+        hinzugefügt werden.
+        - Nutze diese Beispiele:
+        - helloworld = Hello World
+        - pi = 3.14
+        - burjdubai = 828m
+        - fullname = Jan Schmidt
+        - eifeltower = 324m
+        - camelcase = camelCase
+        - kursstatus = true
+        - und wandle sie um in z.B. let helloWorld = "Hello World".</p>
+      <div>
+        <p>Lösung:
+          let helloWorld ="Hello World"
+          const pi = 3.14
+          const burjdubal = "828m"
+          let fullname = " Jan Schmidt"
+          const eifeltower = "324m"
+          const camelcase = "camelCase"
+          let kursstatus = true
+        </p>
+      </div>
+
+      <div class="intro_Level_1_12">
+        <h2>intro_Level_1_12</h2>
+        <p>
+          - Lernziel: arithmetische Operatoren (Multiplikation, Inkrementierung, Dekrementierung) und die Reihenfolge
+          der Berechnungen durch Verwendung von Klammern ().
+          - Übertrage folgende arithmetische Operatoren in deinen Code-Editor und schaue dir das Ergebnis an.
+          - Multiplikation geht vor und so wird 5 * 10 zuerst durchgeführt:
+          let score = 5 + 5 * 10;
+          console.log('Ergebnis: ' + score);
+          - Du kannst Klammern() hinzufügen, um die Reihenfolge der Prioritäten zu ändern:
+          let score = (5 + 5) * 10;
+          console.log('Ergebnis: ' + score);
+          - Du kannst Werte auf Variablen addieren:
+          let score = 0;
+          score = score + 10;
+          console.log('Ergebnis: ' + score);
+          - Hiervon gibt es eine verkürzte Version:
+          score += 10;
+          console.log('Ergebnis: ' + score)
+          - Nun probiere es hiermit:
+          - Inkrementierungen und Dekrementierungen können wie folgt verwendet werden:
+          let zahl = 1;
+          zahl = zahl + 1;
+          zahl += 1;
+          - Verwende den Inkrement-Operator:
+          zahl++;
+          console.log('increment: ' + zahl);
+          - Verwende den Dekrement-Operator:
+          zahl--;
+          console.log('dekrement: ' + zahl);
+        </p>
+        <button onclick="intro_Level_1_12()">intro_Level_1_12()</button>
+
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
