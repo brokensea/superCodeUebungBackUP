@@ -66,30 +66,32 @@ header div {
 /* workSectionIcon */
 
 ul {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
-  text-align: right;
-  margin-right: 30vb;
+  text-align: center;
+  justify-content: end;
+  align-items: end;
+}
+ul li{
+  width: max-content;
 }
 ul li:nth-of-type(1)::before {
   content: url(../img/icon/TW.png);
 }
-ul li:nth-of-type(1):hover {
+ul li:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 ul li:nth-of-type(2)::before {
   content: url(../img/icon/FB.png);
 }
-ul li:nth-of-type(2):hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
+
 
 ul li:nth-of-type(3)::before {
   content: url(../img/icon/IS.png);
 }
-ul li:nth-of-type(3):hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
+
 
 /* footerFirstPage */
 .footerFirstPage {
@@ -141,7 +143,7 @@ article {
   /* Richtet die Spitzen aller Artikel aus */
 }
 
-article:hover {
+.container article:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -186,6 +188,9 @@ article:hover {
   font-weight: 400;
   line-height: 23.44px;
   text-align: center;
+}
+.containerThirdBag img:hover{
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 /* ! Footer */
 
