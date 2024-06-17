@@ -1,0 +1,66 @@
+/* BASIC STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(70, 69, 69, 0.828);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  padding: 0 2vw;
+}
+h1{
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.superBalls1{
+  background-image: linear-gradient(rgb(225, 18, 194), rgb(0, 255, 13));
+  border: 2px solid red;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+ 
+}
+
+.superBalls2 {
+  background-image: linear-gradient(rgb(234, 175, 12), rgb(19, 1, 18));
+  border: 2px solid red;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.superBalls3 {
+  background-image: linear-gradient(rgb(233, 157, 17), rgb(214, 19, 152));
+  border: 2px solid red;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.superBalls4 {
+  background-image: linear-gradient(rgb(14, 171, 219), rgb(7, 111, 38));
+  border: 2px solid red;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
