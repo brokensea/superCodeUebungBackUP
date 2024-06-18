@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <section class="kalorienRechnerBox">
+      <h2>Kalorienrechner</h2>
+      <form class="inputForm" action="">
+        <div class="form-group">
+          <label for="koerpergroesse">Körpergröße</label>
+          <input type="number" name="" id="koerpergroesse" placeholder="cm">
+        </div>
+        <div class="form-group">
+          <label for="alter">Alter</label>
+          <input type="number" name="" id="alter" placeholder="Jahren">
+        </div>
+        <div class="form-group">
+          <label for="gewicht">Gewicht</label>
+          <input type="number" name="" id="gewicht" placeholder="kg">
+        </div>
+        <div class="form-group">
+          <label>Geschlecht</label>
+          <div class="radio-group">
+            <input type="radio" name="kalorGeschlecht" id="weiblich" value="w" checked>
+            <label for="weiblich">Weiblich</label>
+
+            <input type="radio" name="kalorGeschlecht" id="maennlich" value="m">
+            <label for="maennlich">Männlich</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="tatigkeit">Tätigkeit</label>
+          <select name="tatigkeit" id="tatigkeit">
+            <option value="0.95" checked>Schlafen</option>
+            <option value="1.2">Nur Sitzen oder Liegen</option>
+            <option value="1.5">Ausschließlich sitzende Tätigkeit</option>
+            <option value="1.7">Sitzende Tätigkeit mit zeitweiligem Gehen/Stehen</option>
+            <option value="1.9">Überwiegend gehende oder stehende Tätigkeit</option>
+            <option value="2.2">Körperlich anstrengende berufliche Arbeit</option>
+          </select>
+        </div>
+        <button onclick="rechnenKal()" class="buttonClass" type="button">Submit</button>
+      </form>
+
+      <!-- <section class="outPutBox">
+        <div class="kAndKJBox">
+         
+          <p>kcal</p>
+          <p>kJ</p>
+        </div>
+        <div class="resultBox">
+          <div class="grundumsatz">
+            <p>Grundumsatz:</p>
+          </div>
+          <div class="gesamtumsatz">
+            <p>Gesamtumsatz:</p>
+          </div>
+
+        </div>
+      </section> -->
+
+      <!-- OutPutBox use HTML Table -->
+      <section class="outPutBox">
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>kcal</th>
+              <th>kJ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Grundumsatz:</td>
+              <td id="kcalGrundumsatz"></td>
+              <td id="kJGrundumsatz"></td>
+            </tr>
+            <tr>
+              <td>Gesamtumsatz:</td>
+              <td id="kcalGesamtumsatz"></td>
+              <td id="kJGesamtumsatz"></td>
+            </tr>
+          </tbody>
+        </table>
+
+
+      </section>
+      <button class="buttonClass" type="button" onclick="clearAll()">
+        Clear all
+      </button>
+
+    </section>
+  </main>
+  <footer></footer>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -25,3 +25,4 @@ function funktion1_5(number1, number2) {
 
 funktion1_5(10, 2);
 funktion1_5(20, 30);
+
